@@ -6,7 +6,7 @@
     <string>com.userzoom.hosts</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/bin/dnsmasq_reload.sh</string>
+      <string>/usr/local/bin/dnsmasq_reload.sh</string>
     </array>
     <key>WatchPaths</key>
     <array>

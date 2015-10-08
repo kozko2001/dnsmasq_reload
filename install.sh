@@ -7,7 +7,7 @@ cp com.userzoom.hosts.plist /Library/LaunchDaemons/
 chown root /Library/LaunchDaemons/com.userzoom.hosts.plist
 chmod 644 /Library/LaunchDaemons/com.userzoom.hosts.plist
 
-cp dnsmasq_reload.sh /usr/bin 
+cp dnsmasq_reload.sh /usr/local/bin
 
 
 launchctl load /Library/LaunchDaemons/com.userzoom.hosts.plist
